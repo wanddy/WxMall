@@ -28,5 +28,6 @@
     "navigationBarBackgroundColor": "#fff",
     "navigationBarTitleText": "微云基石生活配送",
     "navigationBarTextStyle": "black"
-  }
+  },
+  "sitemapLocation": "sitemap.json"
 }

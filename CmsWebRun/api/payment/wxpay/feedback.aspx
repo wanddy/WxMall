@@ -1,0 +1,1 @@
+﻿<%@ Page Language="C#" AutoEventWireup="true" Inherits="api_payment_wxpay_feedback" Codebehind="feedback.aspx.cs" %>

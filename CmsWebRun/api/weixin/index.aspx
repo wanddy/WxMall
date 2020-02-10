@@ -1,0 +1,1 @@
+﻿<%@ Page Language="C#" AutoEventWireup="true" Inherits="api_weixin_index" Codebehind="index.aspx.cs" %>

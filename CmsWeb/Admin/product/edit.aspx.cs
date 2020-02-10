@@ -10,7 +10,7 @@ using Cms.Common;
 using System.Data;
 using System.Collections;
 
-public partial class Admin_product_edit : System.Web.UI.Page
+public partial class _edit : System.Web.UI.Page
 {
     protected void Page_Load(object sender, EventArgs e)
     {

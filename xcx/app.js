@@ -102,7 +102,7 @@ App({
     userInfo: null,
     word: '',
     typeId:'',
-    apiUrl: 'https://lxshenghuo.sulel.com/api/xcx/index.aspx',
-    hostUrl: 'https://lxshenghuo.sulel.com',
+    apiUrl: 'http://localhost:53528/api/xcx/index.aspx',
+    hostUrl: 'http://localhost:53528',
   }
 })
