@@ -4,7 +4,7 @@ using System;
 using System.Web;
 using System.Data;
 using System.Text;
-
+using Cms.Web;
 public class GetMsg : IHttpHandler
 {
 
@@ -44,7 +44,7 @@ public class GetMsg : IHttpHandler
                         }
                         else
                         {
-                            NickName = wxuser.getwxuserinfo(cl[i].SendUserName).nickname.ToString();
+                            NickName = Cms.Web.wxuser.getwxuserinfo(cl[i].SendUserName).nickname.ToString();
                             if (NickName == "")
                             {
                                 NickName = "未知";
@@ -73,7 +73,7 @@ public class GetMsg : IHttpHandler
                         }
                         else
                         {
-                            NickName = wxuser.getwxuserinfo(cllist[i].SendUserName).nickname.ToString();
+                            NickName = Cms.Web.wxuser.getwxuserinfo(cllist[i].SendUserName).nickname.ToString();
                             if (NickName == "")
                             {
                                 NickName = "未知";
