@@ -71,7 +71,7 @@ public partial class api_xcx_index : System.Web.UI.Page
     public void onLogin()
     {
         string code = Request["code"];
-        string Str = GetJson("https://api.weixin.qq.com/sns/jscode2session?appid=wxf82d5ec0210f7c73&secret=4eb475d2059f9744c706fe49ebec805b&js_code=" + code + "&grant_type=authorization_code");
+        string Str = GetJson("https://api.weixin.qq.com/sns/jscode2session?appid=wx0011b1123ad551da&secret=631f83000a99c644d8abce2537c9fe17&js_code=" + code + "&grant_type=authorization_code");
         if (Str != null)
         {
             Response.Write(Str);

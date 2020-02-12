@@ -29,7 +29,7 @@
                     <li>
                         <asp:LinkButton ID="btnDelete" runat="server" CssClass="del" OnClientClick="return ExePostBack('btnDelete','是否继续删除订单？');"
                             OnClick="btnDelete_Click"><i></i><span>删除</span></asp:LinkButton></li>
-                   <%-- <li>
+                    <li>
                         <asp:LinkButton ID="ToExcel" runat="server" OnClick="ToExcel_Click"><span>导出到Excel</span></asp:LinkButton></li>
                     <li>
                         <div class="input-date">
@@ -38,10 +38,10 @@
                         <div class="input-date">
                             <asp:TextBox ID="endtime" runat="server" CssClass="input date" onfocus="WdatePicker({dateFmt:'yyyy-MM-dd'})" />
                             <i>日期</i></div>
-                    </li>--%>
+                    </li>
                 </ul>
                 <div class="menu-list">
-                    <%--<div class="rule-single-select">
+                    <div class="rule-single-select">
           <asp:DropDownList ID="ddlStatus" runat="server" AutoPostBack="True" >
             <asp:ListItem Value="" Selected="True">订单状态</asp:ListItem>
             <asp:ListItem Value="1">已完单</asp:ListItem>
@@ -54,7 +54,7 @@
             <asp:ListItem Value="1">已支付</asp:ListItem>
             <asp:ListItem Value="2">未支付</asp:ListItem>
           </asp:DropDownList>
-        </div>--%>
+        </div>
                 </div>
             </div>
             <div class="r-list">
